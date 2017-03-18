@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "78F716A6F2F94F5C1EFB9767AFAACF96C652E4B2" : 9223372036854775807,
+    "4411F98DCFE93E1498D3F810B2AE12CC6905BB74" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A5604C8B-EAF1-4623-B84F-091ABD96E080",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "78F716A6F2F94F5C1EFB9767AFAACF96C652E4B2" : "Reflector\/",
+    "4411F98DCFE93E1498D3F810B2AE12CC6905BB74" : "..\/cassandra"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Reflector",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Reflector.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blacklane\/cassandra",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4411F98DCFE93E1498D3F810B2AE12CC6905BB74"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AndreyPanov\/Reflector",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "78F716A6F2F94F5C1EFB9767AFAACF96C652E4B2"
+    }
+  ]
+}
