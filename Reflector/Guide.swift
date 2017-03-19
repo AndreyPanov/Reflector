@@ -8,6 +8,7 @@ class StyleBuilder {
     return guide
   }
   
+  //configure all styles for UI elements
   var headerLabel: (UILabel) -> () = { control in
     control.font = UIFont.systemFont(ofSize: 20)
     control.textColor = .red
