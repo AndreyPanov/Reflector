@@ -1,8 +1,8 @@
-protocol Reflectable {
+protocol Styleable {
   func applyStyle()
 }
 
-extension Reflectable {
+extension Styleable {
   
   func applyStyle() {
     StyleBuilder()
