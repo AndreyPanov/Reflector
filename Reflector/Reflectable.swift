@@ -5,7 +5,9 @@ protocol Reflectable {
 extension Reflectable {
   
   func applyStyle() {
-    StyleBuilder.guide().forEach { setStyle(with: $0) }
+    StyleBuilder()
+      .guide()
+      .forEach { setStyle(with: $0) }
   }
   
   private func setStyle(with guide: Guide) {
