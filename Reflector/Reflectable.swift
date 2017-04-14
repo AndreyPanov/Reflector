@@ -22,11 +22,12 @@ extension Styleable {
   
   private func perform<T>(with identifier: String, closure: (T) -> ()) {
     Mirror(reflecting: self).children.forEach { property in
-      guard property.label?.contain(identifier) == true else { return }
+      guard
+        property.label?.contain(identifier) == true,
+        let value = property.value as? T
+        else { return }
       
-      if let value = property.value as? T {
-        closure(value)
-      }
+      closure(value)
     }
   }
 }
