@@ -34,6 +34,7 @@ extension Styleable {
 
 private extension String {
   //ignore case
+  
   func contain(_ string: String) -> Bool {
     return self.lowercased().contains(string)
   }
