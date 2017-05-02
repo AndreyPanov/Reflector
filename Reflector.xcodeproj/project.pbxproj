@@ -12,7 +12,7 @@
 		AD54B4A11E7D9431005764E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD54B49F1E7D9431005764E1 /* Main.storyboard */; };
 		AD54B4A31E7D9431005764E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD54B4A21E7D9431005764E1 /* Assets.xcassets */; };
 		AD54B4A61E7D9431005764E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD54B4A41E7D9431005764E1 /* LaunchScreen.storyboard */; };
-		AD54B4AE1E7D944C005764E1 /* Reflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54B4AD1E7D944C005764E1 /* Reflectable.swift */; };
+		AD54B4AE1E7D944C005764E1 /* Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54B4AD1E7D944C005764E1 /* Styleable.swift */; };
 		AD54B4B41E7D9510005764E1 /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54B4B31E7D9510005764E1 /* Guide.swift */; };
 		AD54B4B61E7DA84B005764E1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54B4B51E7DA84B005764E1 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 		AD54B4A21E7D9431005764E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD54B4A51E7D9431005764E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD54B4A71E7D9431005764E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD54B4AD1E7D944C005764E1 /* Reflectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflectable.swift; sourceTree = "<group>"; };
+		AD54B4AD1E7D944C005764E1 /* Styleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styleable.swift; sourceTree = "<group>"; };
 		AD54B4AF1E7D9473005764E1 /* Reflector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reflector-Bridging-Header.h"; sourceTree = "<group>"; };
 		AD54B4B31E7D9510005764E1 /* Guide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
 		AD54B4B51E7DA84B005764E1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 				AD54B49B1E7D9431005764E1 /* AppDelegate.swift */,
 				AD54B49D1E7D9431005764E1 /* ViewController.swift */,
 				AD54B4B51E7DA84B005764E1 /* MainViewController.swift */,
-				AD54B4AD1E7D944C005764E1 /* Reflectable.swift */,
+				AD54B4AD1E7D944C005764E1 /* Styleable.swift */,
 				AD54B4B31E7D9510005764E1 /* Guide.swift */,
 				AD54B49F1E7D9431005764E1 /* Main.storyboard */,
 				AD54B4A21E7D9431005764E1 /* Assets.xcassets */,
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD54B4AE1E7D944C005764E1 /* Reflectable.swift in Sources */,
+				AD54B4AE1E7D944C005764E1 /* Styleable.swift in Sources */,
 				AD54B49E1E7D9431005764E1 /* ViewController.swift in Sources */,
 				AD54B4B41E7D9510005764E1 /* Guide.swift in Sources */,
 				AD54B49C1E7D9431005764E1 /* AppDelegate.swift in Sources */,

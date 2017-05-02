@@ -1,24 +1,24 @@
 class StyleBuilder {
   
-  class func guide(styleBuilder: StyleBuilder = StyleBuilder()) -> [Guide] {
-    var guide = [Guide]()
-    guide.append(.headerLabel(styleBuilder.headerLabel))
-    guide.append(.bodyLabel(styleBuilder.bodyLabel))
-    guide.append(.loginTextField(styleBuilder.loginTextField))
-    return guide
+  func guide() -> [Guide] {
+    return [
+      .headerLabel(headerLabel),
+      .bodyLabel(bodyLabel),
+      .loginTextField(loginTextField)
+    ]
   }
   
   //configure all styles for UI elements
   var headerLabel: (UILabel) -> () = { control in
-    control.font = UIFont.systemFont(ofSize: 20)
+    control.font = .systemFont(ofSize: 20)
     control.textColor = .red
   }
   var bodyLabel: (UILabel) -> () = { control in
-    control.font = UIFont.systemFont(ofSize: 15)
+    control.font = .systemFont(ofSize: 15)
     control.textColor = .darkGray
   }
   var loginTextField: (UITextField) -> () = { control in
-    control.font = UIFont.systemFont(ofSize: 15)
+    control.font = .systemFont(ofSize: 15)
     control.textColor = .darkGray
   }
 }

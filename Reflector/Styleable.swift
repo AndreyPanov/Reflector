@@ -1,11 +1,13 @@
-protocol Reflectable {
+protocol Styleable {
   func applyStyle()
 }
 
-extension Reflectable {
+extension Styleable {
   
   func applyStyle() {
-    StyleBuilder.guide().forEach { setStyle(with: $0) }
+    StyleBuilder()
+      .guide()
+      .forEach { setStyle(with: $0) }
   }
   
   private func setStyle(with guide: Guide) {
@@ -20,18 +22,20 @@ extension Reflectable {
   
   private func perform<T>(with identifier: String, closure: (T) -> ()) {
     Mirror(reflecting: self).children.forEach { property in
-      guard property.label?.containsWithLowercased(identifier) == true else { return }
+      guard
+        property.label?.contain(identifier) == true,
+        let value = property.value as? T
+        else { return }
       
-      if let value = property.value as? T {
-        closure(value)
-      }
+      closure(value)
     }
   }
 }
 
 private extension String {
   //ignore case
-  func containsWithLowercased(_ string: String) -> Bool {
-    return self.lowercased().contains(string.lowercased())
+  
+  func contain(_ string: String) -> Bool {
+    return self.lowercased().contains(string)
   }
 }

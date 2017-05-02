@@ -1,4 +1,4 @@
-class ViewController: UIViewController, Reflectable {
+class ViewController: UIViewController, Styleable {
 
   override func viewDidLoad() {
     super.viewDidLoad()
